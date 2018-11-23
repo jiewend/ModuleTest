@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/11/5 19:17:44。
+     1>项目“D:\win7我的文档-桌面-收藏夹\Desktop\BP信噪比\Raptor_code3.0_minsum_10000_0.2\LDPC_code.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\win7我的文档-桌面-收藏夹\desktop\bp信噪比\raptor_code3.0_minsum_10000_0.2\main.cpp(197): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\Vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\LDPC_code.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug\LDPC_code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\LDPC_code.lib" /MACHINE:X86 /SAFESEH .\Debug\CDistribution.obj
+         .\Debug\Decode.obj
+         .\Debug\Encode.obj
+         .\Debug\Gau_Channel.obj
+         .\Debug\main.obj
+         .\Debug\RandNum.obj
+         .\Debug\RandNum1.obj
+         .\Debug\Source.obj
+         LDPC_code.vcxproj -> D:\win7我的文档-桌面-收藏夹\Desktop\BP信噪比\Raptor_code3.0_minsum_10000_0.2\.\Debug\LDPC_code.exe
+     1>已完成生成项目“D:\win7我的文档-桌面-收藏夹\Desktop\BP信噪比\Raptor_code3.0_minsum_10000_0.2\LDPC_code.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.72

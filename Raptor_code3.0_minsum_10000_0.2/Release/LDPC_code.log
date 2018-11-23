@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015/12/8 20:34:51。
+     1>项目“C:\Users\Administrator\Desktop\观察的程序\新minsum程序100_BP\Raptor_code3.0_minsum_10000_0.2\LDPC_code.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\program files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(192): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\program files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\LDPC_code.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\LDPC_code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\LDPC_code.lib" /MACHINE:X86 /SAFESEH .\Release\CDistribution.obj
+         .\Release\Decode.obj
+         .\Release\Encode.obj
+         .\Release\Gau_Channel.obj
+         .\Release\main.obj
+         .\Release\RandNum.obj
+         .\Release\RandNum1.obj
+         .\Release\Source.obj
+         LDPC_code.vcxproj -> C:\Users\Administrator\Desktop\观察的程序\新minsum程序100_BP\Raptor_code3.0_minsum_10000_0.2\.\Release\LDPC_code.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\观察的程序\新minsum程序100_BP\Raptor_code3.0_minsum_10000_0.2\LDPC_code.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.85
